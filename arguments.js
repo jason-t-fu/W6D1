@@ -72,7 +72,7 @@ Function.prototype.curry = function(numArgs) {
     args = args.concat(Array.from(arguments));
 
     if (args.length === numArgs) {
-      //return that.apply(args);
+      // return that.apply(args);
       return that(...args);
     }
     else {
