@@ -9,7 +9,7 @@ function Game(ctx) {
 
 Game.prototype.addAsteroids = function() {
   for (let i = 0; i < this.NUM_ASTEROIDS; i++) {
-    
+    this.asteroids.push(new Asteroid())
   }
 };
 
